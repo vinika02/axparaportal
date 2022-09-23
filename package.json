@@ -8,8 +8,8 @@
     "lint": "vue-cli-service lint"
   },
   "engines": {
-    "node": "12.22.8",
-    "npm": "18.5.0"
+    "node": "18.5.0",
+    "npm": "8.12.1"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.6",
