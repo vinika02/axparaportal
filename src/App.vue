@@ -1,26 +1,23 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <Header></Header>
+  <SkillScanner></SkillScanner>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Header from './components/includes/HeaderNav.vue'
+import SkillScanner from './components/pages/SkillScanner.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Header,
+    SkillScanner,
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  html, body{
+    background-color: #f5f5f5;
+  }
 </style>
